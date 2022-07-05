@@ -6,11 +6,11 @@ func main() {
 
 	var first, second, third int
 
-	fmt.Println("Enter the first number ")
+	fmt.Println("Enter the First number ")
 	fmt.Scan(&first)
-	fmt.Println("Enter the second number ")
+	fmt.Println("Enter the Second number ")
 	fmt.Scan(&second)
-	fmt.Println("Enter the third number ")
+	fmt.Println("Enter the Third number ")
 	fmt.Scan(&third)
 
 	if first >= second && first >= third {
